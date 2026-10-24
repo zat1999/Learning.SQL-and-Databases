@@ -22,8 +22,3 @@ VALUES
     (3, 'Monitor', 650.00, 8);
 GO
 
--- Retrieve data
-SELECT *
-FROM Products
-WHERE Price > 100
-ORDER BY Price DESC;
