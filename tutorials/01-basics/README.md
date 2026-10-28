@@ -1,8 +1,13 @@
 # 01 - SQL Basics
 
-The [BasicQuery.sql](BasicQuery.sql) script is a first exercise using Microsoft SQL Server. It creates a practice database and `Products` table, inserts three rows.
+This tutorial introduces core SQL fundamentals using Microsoft SQL Server. The goal is to create a small practice database, populate it with sample product data, and query the rows that match a condition.
 
-The [BasicSelect.sql](BasicSelect.sql) script will use the newly create database and select the rows/products in which the price is above 40. 
+## Files in this tutorial
+
+| File | Purpose |
+| --- | --- |
+| [BasicQuery.sql](BasicQuery.sql) | Creates the `SQLExamPractice` database and the `Products` table, then inserts sample rows |
+| [BasicSelect.sql](BasicSelect.sql) | Uses the database to return products whose price is above 40 |
 
 ## Concepts
 
@@ -13,4 +18,10 @@ The [BasicSelect.sql](BasicSelect.sql) script will use the newly create database
 
 ## Run
 
-Open the script in SQL Server Management Studio or Azure Data Studio and execute it against a SQL Server instance. The script creates a database named `SQLExamPractice`; make sure you have permission to create databases and that the name does not conflict with an existing database.
+Open the scripts in SQL Server Management Studio or Azure Data Studio and execute them against a SQL Server instance. The scripts create a database named `SQLExamPractice`, so make sure you have permission to create databases and that the name does not conflict with an existing database.
+
+## Typical workflow
+
+1. Run `BasicQuery.sql` to create the database and insert sample data.
+2. Run `BasicSelect.sql` to query the records.
+3. Review the output and experiment with different filter conditions.
