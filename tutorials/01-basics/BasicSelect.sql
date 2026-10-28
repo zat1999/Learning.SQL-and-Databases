@@ -1,3 +1,6 @@
+USE SQLExamPractice;
+GO
+
 -- Retrieve data
 SELECT *
 FROM Products
