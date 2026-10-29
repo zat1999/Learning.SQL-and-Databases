@@ -1,0 +1,25 @@
+ID, Requirement, Priority, Acceptance Criteria
+1, Product Analysis
+1.1, List products with their category and price, HIGH, "Each product appears with its category and price; products without a category remain visible with a blank category."
+1.2, Find the most expensive products, LOW, "Return the product or products with the highest price; include all ties and display each product's name and price."
+1.3, Identify products within a particular price range, LOW, "For supplied minimum and maximum prices, return products whose prices are within the inclusive range; reject a minimum greater than the maximum."
+1.4, Sort products by price, LOW, "Return all products ordered by price from lowest to highest; use product name ascending to make equal-price ordering deterministic."
+1.5, Sort products by category, LOW, "Return all products ordered by category ascending and then product name ascending; products without a category appear last."
+2, Customer Analysis
+2.1, Find customers who have placed the most orders, HIGH, "Count orders per customer and return every customer tied for the highest count; show each customer's name and order count."
+2.2, Calculate total spending per customer, HIGH, "Return one row per customer with total spending calculated as the sum of their order-line sales amounts; customers with no orders have a total of zero."
+2.3, Identify customers who have not placed orders, MEDIUM, "Return every customer with no associated order; do not omit customers because their order data is absent."
+2.4, Rank customers by spending, LOW, "Rank all customers by total spending from highest to lowest; customers with equal spending share a rank, and each row shows the customer and total."
+2.5, Rank customers by category spending, LOW, "For each customer and product category, calculate total order-line sales amount and rank categories within that customer from highest to lowest; equal totals share a rank."
+3, Sales Analysis
+3.1, Calculate monthly revenue, HIGH, "Aggregate sales amount by calendar month using the order date; each month shows its revenue total and months with no sales show zero."
+3.2, Find the top 10 best-selling products, MEDIUM, "Return up to 10 products ordered by total units sold from highest to lowest; break ties by product name ascending and show units sold."
+3.3, Compare sales across years, HIGH, "Show total sales amount grouped by calendar year using the order date, with years ordered chronologically and the same sales-amount calculation used for every year."
+3.4, Compare sales across months, HIGH, "Show total sales amount grouped by calendar month across years; identify each period by year and month and order periods chronologically."
+3.5, Calculate each product's percentage contribution to revenue, HIGH, "For each product, show its sales amount as a percentage of total sales amount for the same reporting period; percentages use a consistent denominator and sum to 100% before display rounding."
+3.6, Rank the top best-selling products in each category, LOW, "Within each category, rank products by total units sold from highest to lowest; equal unit totals share a rank and each result shows category, product, rank, and units sold."
+4, Inventory Analysis
+4.1, Identify products with low inventory, HIGH, "Return products whose on-hand quantity is below the applicable low-stock or reorder threshold; show product, location, quantity on hand, and threshold."
+4.2, Compare inventory quantities across locations, HIGH, "Show on-hand quantity for each product at each location, including locations with zero stock, so quantities can be compared consistently."
+4.3, Find products that sell frequently, MEDIUM, "Show each product's count of completed sales transactions in the selected period, ordered from most frequent to least frequent; break ties by product name ascending."
+4.4, Create a report to help prioritize restocking, HIGH, "List products below their reorder threshold with current quantity, threshold, and shortfall; order by greatest shortfall first, then by highest sales frequency."
