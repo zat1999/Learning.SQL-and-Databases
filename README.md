@@ -16,8 +16,8 @@ A practical record of my SQL learning journey, from foundational queries to comp
 
 - [x] Create a database and table, insert rows, and query the results
 - [x] Filter and sort data; use aliases and expressions
-- [ ] Aggregate data with `GROUP BY` and `HAVING`
-- [ ] Combine tables with joins
+- [x] Aggregate data with `GROUP BY` and `HAVING`
+- [x] Combine tables with joins
 - [ ] Use subqueries, common table expressions, and window functions
 - [ ] Build projects that apply these concepts to realistic questions
 
