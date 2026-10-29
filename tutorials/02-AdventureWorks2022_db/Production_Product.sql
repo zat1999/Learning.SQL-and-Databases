@@ -1,6 +1,8 @@
 USE AdventureWorks2022;
 GO
 
+-- Basic Example of SELECT, ORDER BY, WHERE
+
 SELECT  
 	ProductID,
 	Name,
