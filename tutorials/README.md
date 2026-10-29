@@ -11,7 +11,7 @@ Start with the basics and work through each topic in order. The exercises move f
 | Topic | What it covers |
 | --- | --- |
 | [01 - Basics](01-basics/README.md) | Create a database and table, insert sample data, and query rows |
-| [02 - AdventureWorks2022 DB](02-AdventureWorks2022_db/README.md) | Explore the AdventureWorks2022 sample database, inspect schema metadata, and practice filtering, aggregation, and joins |
+| [02 - AdventureWorks2022 DB](02-AdventureWorks2022_db/README.md) | Explore the AdventureWorks2022 sample database, inspect schema metadata, and practice filtering, aggregation, joins, subqueries, CTEs, and window functions |
 
 ## How to use these tutorials
 

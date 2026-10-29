@@ -11,6 +11,7 @@ This tutorial uses the AdventureWorks2022 sample database to practice querying a
 | [Test_Filtering_n_Sorting.sql](Test_Filtering_n_Sorting.sql) | Demonstrates filtering with `WHERE`, sorting with `ORDER BY`, limiting rows with `TOP`, and column aliasing |
 | [Test_Aggregate_Data.sql](Test_Aggregate_Data.sql) | Summarizes product data using aggregate functions such as `COUNT`, `AVG`, `MIN`, and `MAX` |
 | [Test_Join.sql](Test_Join.sql) | Shows how to combine data from multiple tables with joins |
+| [Test_Subquery_n_CTEs.sql](Test_Subquery_n_CTEs.sql) | Practices subqueries, CTEs, window functions, and combining these techniques |
 
 ## Concepts
 
@@ -20,6 +21,9 @@ This tutorial uses the AdventureWorks2022 sample database to practice querying a
 - Using `TOP` to limit results and `ORDER BY` to control row order
 - Aggregate functions such as `COUNT`, `AVG`, `MIN`, and `MAX`
 - Joining tables to combine related data
+- Using subqueries and `IN` to filter results
+- Defining CTEs to organize aggregate queries
+- Applying `ROW_NUMBER` and `RANK` window functions
 - Exploring metadata with table lists and schema inspection
 
 ## Run
@@ -33,4 +37,5 @@ Open the scripts in SQL Server Management Studio or Azure Data Studio and execut
 3. Run `Test_Filtering_n_Sorting.sql` to practice `WHERE`, `ORDER BY`, `TOP`, and aliases.
 4. Run `Test_Aggregate_Data.sql` to review summary metrics.
 5. Run `Test_Join.sql` to combine related data from multiple tables.
-6. Experiment by changing filters, columns, joins, and aggregate functions.
+6. Run `Test_Subquery_n_CTEs.sql` to practice subqueries, CTEs, and window functions.
+7. Experiment by changing filters, columns, joins, and aggregate functions.

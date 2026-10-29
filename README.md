@@ -18,12 +18,14 @@ A practical record of my SQL learning journey, from foundational queries to comp
 - [x] Filter and sort data; use aliases and expressions
 - [x] Aggregate data with `GROUP BY` and `HAVING`
 - [x] Combine tables with joins
-- [ ] Use subqueries, common table expressions, and window functions
+- [x] Use subqueries, common table expressions, and window functions
 - [ ] Build projects that apply these concepts to realistic questions
 
 ## Getting started
 
 The first tutorial is [`BasicQuery.sql`](tutorials/01-basics/BasicQuery.sql). It uses SQL Server syntax, including `GO`, and creates a small product table with sample rows.
+
+For practice with a larger real-world schema—including subqueries, common table expressions, and window functions—see the [AdventureWorks2022 tutorial](tutorials/02-AdventureWorks2022_db/README.md).
 
 Run scripts only in a practice database or other environment where you are comfortable creating and changing data. Add a short README to each new project explaining its goal, dataset, SQL dialect, and how to run the scripts.
 
