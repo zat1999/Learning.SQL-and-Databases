@@ -4,18 +4,19 @@ This folder contains short, focused SQL exercises designed to build practical da
 
 ## Learning path
 
-Start with the basics and work through each topic in order.
+Start with the basics and work through each topic in order. The exercises move from simple SQL statements to querying real database schemas and summarizing business data.
 
 ## Current tutorials
 
 | Topic | What it covers |
 | --- | --- |
 | [01 - Basics](01-basics/README.md) | Create a database and table, insert sample data, and query rows |
-| [02 - AdventureWorks2022 DB](02-AdventureWorks2022_db/README.md) | Explore the AdventureWorks2022 sample database and practice schema and product queries |
+| [02 - AdventureWorks2022 DB](02-AdventureWorks2022_db/README.md) | Explore the AdventureWorks2022 sample database, inspect schema metadata, and practice filtering, aggregation, and joins |
 
 ## How to use these tutorials
 
-- Read the tutorial README in the numbered folder.
-- Open the SQL scripts in SSMS or Azure Data Studio.
-- Run each script against a local or remote SQL Server instance.
-- Review the results before moving on to the next exercise.
+- Read the tutorial README in the numbered folder before running scripts.
+- Open the SQL files in SQL Server Management Studio, Azure Data Studio, or another SQL Server client.
+- Run each script against a local or remote SQL Server instance that has the required database installed.
+- Review the output and modify the queries to test alternative conditions, filters, and groupings.
+- Move to the next tutorial only after you understand the result of the previous one.
